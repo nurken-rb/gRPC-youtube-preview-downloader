@@ -1,0 +1,15 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": "5432",
+    "db_name": "thumbnail",
+    "ssl_mode": "disable",
+    "user": "postgres",
+    "password": "password"
+  },
+  "app": {
+    "bind_addr": ":8080",
+    "log_level": "debug",
+    "cache_dir_path": "./thumbnails_server"
+  }
+}
